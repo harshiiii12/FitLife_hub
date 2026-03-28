@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apoitment form</title>
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Muli:300,400,500,600,700,800,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/flaticon.css" type="text/css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/barfiller.css" type="text/css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+</head>
+<body>
+    <section class="appointment-section">
+    <div class="appointment-container">
+        <h2>Book Your Appointment</h2>
+        <p>Start your fitness journey with us 💪</p>
+
+        <form action="appointment.php" method="POST" onsubmit="return validateForm()">
+            
+            <input type="text" name="name" id="name" placeholder="Full Name" required>
+            
+            <input type="email" name="email" id="email" placeholder="Email Address" required>
+            
+            <input type="text" name="phone" id="phone" placeholder="Mobile Number" required>
+            
+            <input type="date" name="date" required>
+            
+            <textarea name="message" placeholder="Your Message (Optional)"></textarea>
+            
+            <button type="submit">Book Now</button>
+        </form>
+    </div>
+</section>
+<script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/jquery.barfiller.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
